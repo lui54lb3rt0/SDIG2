@@ -6,7 +6,7 @@
 	Linguagem		:	C
 	Ano				:	2015/2016
 	Unidade Cur.	:	Sistemas Digitais 2
-	Semestre		:	2
+	Semestre		:	3
 	Autor			:	Luís Silva
 	E-mail			:	1101420@isep.ipp.pt
 ************************************/
