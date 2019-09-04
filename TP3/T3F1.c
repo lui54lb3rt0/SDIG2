@@ -25,6 +25,7 @@
 #define sw5	0b00001111
 #define left 1 //	Sentido dos ponteiros do rel�gio
 #define right 0 //	Sentido inversos dos ponteiros do rel�gio
+#define PWM(val) ((255*val)/100); //	% Duty Cicle
 
 /***********************************
 	Global Variables & Structures
@@ -39,7 +40,6 @@ const unsigned char segments[14]={0xC0,0xF9,0xA4,0xB0,0x99,0x92,0x82,0xF8,0x80,0
 unsigned char	ndisplays	=	4; //Display
 unsigned char	DispValue[4]; //Display
 unsigned char	DispSelector=	3;
-#define PWM(val) ((255*val)/100); //	% Duty Cicle
 unsigned char s=left;
 volatile unsigned char a=0;
 volatile unsigned char c=100;
